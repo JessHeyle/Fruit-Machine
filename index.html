@@ -1,0 +1,41 @@
+<!--author: Jessica Heyle Student ID: R00131139 Email: Jessica.heyle@mycit.ie-->
+<!--Fruit Machine HTML-->
+<!DOCTYPE html>
+	<HEAD>
+		<TITLE>Fruit Machine</TITLE>	
+		<LINK rel="stylesheet" type="text/css" href="style.css">
+		<script src="script.js"></script>
+	</HEAD>
+	<BODY>
+		<div id="outside_container">
+			<div id="container">
+				<div id="fruit">
+					<p id="fruit1"></p>
+					<p id="fruit2"></p>
+					<p id="fruit3"></p>
+				</div>
+			</div>
+		</div>
+		<div id="lever">
+				<div id="ball"></div>
+				<div id="stem"></div>
+				<div id="cog"></div>
+		</div>
+		<div>
+		<!-- Open The Settings -->
+			<IMG id="gear" SRC="images/gear.png" alt="Settings">
+		</div>
+
+		<!-- The Settings -->
+		<div id="myModal" class="modal">
+
+		  <!-- Settings content -->
+		  <div class="modal-content">
+			  <input type="radio" name="styles" value="orange" onClick="changeColour('orange')"> Orange<br>
+			  <input type="radio" name="styles" value="white" onClick="changeColour('white')"> White<br>
+			  <span class="close">&times;</span>
+		  </div>
+		</div>
+		<div id="overlay"></div>
+	</BODY>
+</HTML>
